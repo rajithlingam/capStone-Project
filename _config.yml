@@ -6,3 +6,5 @@ exclude:
   - another-directory
   - node_modules
 
+bundle update
+bundle exec jekyll build
