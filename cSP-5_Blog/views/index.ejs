@@ -1,0 +1,39 @@
+<%- include('./partials/header.ejs') %>
+
+<form action="/submit" method="POST">
+
+<div class="row">
+  
+    <div class="col-6 form-floating">
+    <textarea class="form-control Heading-txtar" name="getHeading" placeholder="Heading" id="floatingTextarea0"></textarea>
+    <label for="floatingTextarea">Heading</label>
+    </div>
+
+    <div class="col-6 form-floating">
+    <textarea class="form-control Heading-txtar" name="getAuthor" placeholder="Author" id="floatingTextarea1"></textarea>
+    <label for="floatingTextarea">Author</label>
+    </div>
+
+</div> 
+
+<div class="form-floating">
+    <textarea class="form-control form"  name="getsay" placeholder="say"id="floatingTextarea2"></textarea>
+    <label for="floatingTextarea2">Say</label>
+
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="col text-center">
+       
+        <button type="submit" value="OK" class="btn btn-primary butn">Post</button>
+      
+      </div>
+    </div>
+  
+  </div>
+
+</form>
+
+  <p class="container lead text-center">
+    Post What You Want To Say.
+  </p> 
+
+  <%- include('./partials/footer.ejs') %>

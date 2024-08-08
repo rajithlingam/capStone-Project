@@ -1,0 +1,71 @@
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  
+ .pu2s{
+  margin: 5px;
+ }
+
+ .postcard-heart{
+  height: 3rem;
+  margin: 5px;
+ }
+
+  .form{
+    position: relative;
+    top: 20px;
+    background-color: #FFDA76 !important;
+    height: 15em !important ;
+   margin-top: 20px;
+  }
+
+  .Heading-txtar{
+    position: relative;
+    top: 20px;
+    background-color: #FFDA76 !important;
+   
+  }
+
+  .heading{
+    position: relative;
+    justify-content: space-evenly;
+  }
+
+  .butn{
+    
+    margin-top:40px;
+  }
+.lead{
+  margin-top: 2%;
+  justify-content: center;
+  text-align: center;
+}
+
+header{
+  background-color: #FF4E88;
+}
+
+body{
+  background-color: #B4D6CD !important;
+}
+
+.icon{
+justify-content: space-evenly;
+}
+
+.foot {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    margin: 0% !important;
+    background-color: #d63384  ;
+   }
+
+   .pst-btn{
+    position: relative;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.6); 
+    top: 24px;
+    margin-left: 4%;
+    text-shadow : 2px 1px 2px #FF4E88;
+   }
