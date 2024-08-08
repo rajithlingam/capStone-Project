@@ -2,3 +2,5 @@ exclude:
   - node_modules
   - .git
   - .github
+  - README.md
+  - another-directory
